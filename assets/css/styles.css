@@ -70,11 +70,18 @@ canvas {
     margin-right: 10px;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 a.disabled {
     pointer-events: none;
     cursor: default;
-    text-decoration: none !important;
     color: #aaa;
+}
+
+#about {
+    margin-top: -160px;
 }
 
 /*--------------------------------------------------------------
